@@ -3,9 +3,31 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    /* background-color: rgb(0, 0, 0); */
+    background-color: rgb(0, 0, 0);
+    color: white;
 }
-.logo {
-    width: 50px;
-    height: 50px;
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5em 1em;
+    color: white;
+    height: 100%;
+    width: 25.8em;
+}
+header ul {
+    /* display: block; */
+    list-style: none;
+}
+header ul li {
+    padding: 5px;
+    margin: 5px;
+
+}
+header i {
+    color: white;
+    font-size: 1.8em;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
 }
