@@ -1,3 +1,5 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -10,10 +12,12 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    float: left;
     padding: 0.5em 1em;
     color: white;
     height: 100%;
     width: 25.8em;
+    /* background-color: red; */
 }
 header ul {
     /* display: block; */
@@ -25,9 +29,46 @@ header ul li {
 
 }
 header i {
-    color: white;
+    color:#e8e8e8;
     font-size: 1.8em;
+    font-weight: bold;
     padding: 5px;
     justify-content: center;
     align-items: center;
 }
+
+header ul li .logo {
+     text-decoration: none;
+     font-size: 1.2em;
+     font-weight: 600;
+}
+header ul li a {
+     text-decoration: none;
+     font-size: 1.25em;
+     font-weight: 600;
+}
+header ul li a:hover {
+ color: #e8e8e8;
+ background-color: #212121;
+}
+header ul li .settings {
+     font-weight: normal;
+    font-size: 1em;
+}
+main {
+    display: inline-block;
+    justify-content: space-between;
+    /* background-color: blue; */
+    width: 600px;
+    height: 1378px;
+}
+/* .container{ 
+    background-color: yellow;
+    width: 500px;
+    height: 500px;
+}
+.signup {
+    background-color: green;
+    width: 500px;
+    height: 500px;
+} */
