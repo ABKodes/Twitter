@@ -58,17 +58,32 @@ header ul li .settings {
 main {
     display: inline-block;
     justify-content: space-between;
-    /* background-color: blue; */
+    background-color: blue;
     width: 600px;
     height: 1378px;
 }
-/* .container{ 
-    background-color: yellow;
-    width: 500px;
-    height: 500px;
+#search {
+    display: block;
 }
-.signup {
-    background-color: green;
-    width: 500px;
-    height: 500px;
-} */
+.search {
+    width: 502.4px;
+    height: 53px;
+    padding: 15px;
+    display: block;
+}
+.searchbar {
+    width: 502.4px;
+    height: 44px;
+    float: left;
+    border-radius: 20px;
+    background-color: red;
+}
+.searchbar input {
+    width: 432.8px;
+    height: 18.4px;
+    padding: 12px;
+    margin: 3px;
+    border-style: none;
+    float: right;
+}
+.settings {
