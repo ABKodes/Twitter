@@ -52,7 +52,7 @@ header ul li a:hover {
  background-color: #212121;
 }
 header ul li .settings {
-     font-weight: normal;
+    font-weight: normal;
     font-size: 1em;
 }
 main {
@@ -86,4 +86,4 @@ main {
     border-style: none;
     float: right;
 }
-.settings {
+/* .settings { */
