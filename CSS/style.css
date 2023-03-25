@@ -26,7 +26,7 @@ header ul {
 header ul li {
     padding: 5px;
     margin: 5px;
-
+    margin-bottom: 10px;
 }
 header i {
     color:#e8e8e8;
@@ -55,6 +55,16 @@ header ul li .settings {
     font-weight: normal;
     font-size: 1em;
 }
+.explore:hover img {
+    background-color: #212121;
+    border-radius: 50%;
+}
+.settings-icon:hover img {
+    background-color: #212121;
+  }
+.logo:hover img {
+    background-color: #212121;
+  }
 main {
     display: inline-block;
     justify-content: space-between;
@@ -62,23 +72,19 @@ main {
     width: 600px;
     height: 1378px;
 }
-#search {
-    display: block;
-}
 .search {
     width: 502.4px;
     height: 53px;
     padding: 15px;
+    margin-left: 15px;
     display: block;
-}
-.searchbar {
-    width: 502.4px;
-    height: 44px;
+    /* background-color: red; */
+    position: absolute;
     float: left;
-    border-radius: 20px;
-    background-color: red;
+    border-radius: 30px;
 }
-.searchbar input {
+
+.search input {
     width: 432.8px;
     height: 18.4px;
     padding: 12px;
@@ -86,4 +92,4 @@ main {
     border-style: none;
     float: right;
 }
-/* .settings { */
+
