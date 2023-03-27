@@ -47,9 +47,9 @@ header ul li a {
      font-size: 1.25em;
      font-weight: 600;
 }
-header ul li a:hover {
- color: #e8e8e8;
- background-color: #212121;
+header ul li:not(:first-child) a:hover{
+     color: #e8e8e8;
+     background-color: #212121;
 }
 header ul li .settings {
     font-weight: normal;
@@ -63,7 +63,7 @@ header ul li .settings {
     background-color: #212121;
   }
 .logo:hover img {
-    background-color: #212121;
+    background-color:  rgba(29, 155, 240,0.2);
   }
 main {
     display: inline-block;
@@ -74,20 +74,20 @@ main {
 }
 .search {
     width: 502.4px;
-    height: 53px;
+    height: 48px;
     padding: 15px;
     margin-top: 5px;
     margin-left: 5px;
     display: grid;
     grid-template-columns: 5fr 1fr;
-    background-color:#272727;
+    background-color:#57494956;
     position: absolute;
     float: right;
     border-radius: 30px;
-   
+    justify-content: flex-start;
 }
 .searchicon {
-    background-color: #272727;
+    background-color: #57494956;
   }
 #search {
     position: relative;
@@ -99,11 +99,11 @@ main {
 .search input {
     outline: none;
     width: 432.8px;
-    height: 30px;
+    height: 27px;
     padding: 12px;
     border-style:none;
     float: right;
-    background-color:#272727;
+    background-color:#57494956;
     border: none !important;
 }
 /* .search :focus {
@@ -116,6 +116,11 @@ main {
     background-color: #212121;
 }
 .settings img {
-    width:22px;
-    height: 22px;
+    width: 20px;
+    height: 20px;
 }
+/* .signin {
+    width: 348.4px;
+    height: 288px;
+    border: #e8e8e8 solid 1px;
+} */
