@@ -71,6 +71,7 @@ main {
     /* background-color: blue; */
     width: 600px;
     height: 1378px;
+    float: left;
 }
 .search {
     width: 502.4px;
@@ -119,8 +120,53 @@ main {
     width: 20px;
     height: 20px;
 }
-/* .signin {
+footer {
+    float: right;
+    margin:20px 130px 0 0;
+    padding: 20px ;
+    line-height: 1.2em;
+}
+.signin {
+    /* border: #e8e8e8 solid 1px; */
+    height: 8px;
     width: 348.4px;
-    height: 288px;
-    border: #e8e8e8 solid 1px;
-} */
+    padding: 20px;
+}
+.signin h2 {
+    margin: 10px;
+}
+.signin p {
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.signin p:not(:last-child) {
+    color: #8d8d8d;
+}
+.signin a {
+    text-decoration: none;
+    color:rgb(29, 155, 240) ;
+}
+.signin a:hover {
+    text-decoration: underline;
+}
+.options {
+    width: 300px;
+    height: 44px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border-radius: 30px;
+}
+.options h3 {
+    display: inline;
+    background-color: white;
+    color: black;
+    font-weight: 500;
+    font-size: 1em;
+}
+.options img {
+    margin-right: 10px;
+    background-color: white;
+}
