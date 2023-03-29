@@ -72,6 +72,8 @@ main {
     width: 600px;
     height: 1378px;
     float: left;
+    border-left: 0.1px solid rgb(75, 74, 74);
+    border-right: 0.1px solid rgb(75, 74, 74);
 }
 .search {
     width: 502.4px;
@@ -129,7 +131,7 @@ footer {
 .signin {
     /* border: #e8e8e8 solid 1px; */
     height: 8px;
-    width: 348.4px;
+    /* width: 348.4px; */
     padding: 20px;
 }
 .signin h2 {
@@ -158,6 +160,7 @@ footer {
     align-items: center;
     margin: 10px;
     border-radius: 30px;
+    cursor: pointer;
 }
 .options h3 {
     display: inline;
@@ -169,4 +172,43 @@ footer {
 .options img {
     margin-right: 10px;
     background-color: white;
+}
+.box {
+    height: 320px;
+    width: 350px;
+    border: rgb(75, 74, 74) solid 1px;
+    justify-content: center;
+    align-items: center;
+    margin-top: -15px;
+    /* display: flex; */
+    border-radius: 15px;
+}
+.lists {
+    width:316px;
+    height:60px; 
+    padding: 16px;
+}
+.lists ul {
+    list-style-type: none;
+}
+.lists ul li {
+    display: inline;
+    /* padding: 5px; */
+    margin-left: 5px;
+    font-weight: 100;
+    font-size: 11.5px;
+    color: rgb(75, 74, 74);
+    justify-content: space-between;
+}
+.lists ul li a {
+    text-decoration: none;
+}
+.lists ul li a:hover {
+    text-decoration: underline;
+}
+.lists p {
+    font-size:11.5px;
+    margin-left: 2px;
+    padding: 5px;
+    font-weight: 100;
 }
