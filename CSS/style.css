@@ -17,6 +17,7 @@ header {
     color: white;
     height: 100%;
     width: 25.8em;
+    overflow: hidden;
     /* background-color: red; */
 }
 header ul {
@@ -25,8 +26,8 @@ header ul {
 }
 header ul li {
     padding: 5px;
-    margin: 5px;
-    margin-bottom: 10px;
+    margin: 10px;
+    margin-bottom: 20px;
 }
 header i {
     color:#e8e8e8;
@@ -40,16 +41,19 @@ header i {
 header ul li .logo {
      text-decoration: none;
      font-size: 1.2em;
-     font-weight: 600;
+     font-weight: 600;    
 }
 header ul li a {
      text-decoration: none;
      font-size: 1.25em;
      font-weight: 600;
+     padding: 15px;
 }
 header ul li:not(:first-child) a:hover{
      color: #e8e8e8;
      background-color: #212121;
+     border-radius: 30px;
+     width: 40px;
 }
 header ul li .settings {
     font-weight: normal;
@@ -62,9 +66,14 @@ header ul li .settings {
 .settings-icon:hover img {
     background-color: #212121;
   }
+.logo img{
+    padding: 15px;
+    margin-top: -22px;
+}
 .logo:hover img {
-    background-color:  rgba(29, 155, 240,0.2);
-  }
+    border-radius: 50%;
+    background-color:  rgba(75, 74, 74,0.3);
+}
 main {
     display: inline-block;
     justify-content: space-between;
@@ -72,15 +81,15 @@ main {
     width: 600px;
     height: 1378px;
     float: left;
-    border-left: 0.1px solid rgb(75, 74, 74);
-    border-right: 0.1px solid rgb(75, 74, 74);
+    border-left: 0.1px solid rgba(75, 74, 74,0.2);
+    border-right: 0.1px solid rgba(75, 74, 74,0.2);
 }
 .search {
     width: 502.4px;
     height: 48px;
     padding: 15px;
     margin-top: 5px;
-    margin-left: 5px;
+    margin-left: 15px;
     display: grid;
     grid-template-columns: 5fr 1fr;
     background-color:#57494956;
@@ -117,6 +126,7 @@ main {
 }
 .settings:hover img {
     background-color: #212121;
+    border-radius: 50%;
 }
 .settings img {
     width: 20px;
@@ -127,6 +137,7 @@ footer {
     margin:20px 130px 0 0;
     padding: 20px ;
     line-height: 1.2em;
+    overflow: hidden;
 }
 .signin {
     /* border: #e8e8e8 solid 1px; */
@@ -212,3 +223,14 @@ footer {
     padding: 5px;
     font-weight: 100;
 }
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sub {
+    display: inline-block;
+    margin: 10px;
+    padding: 15px;
+    margin-top: 20px;
+} 
