@@ -90,6 +90,7 @@ main {
     padding: 15px;
     margin-top: 5px;
     margin-left: 15px;
+    margin-bottom: ;
     display: grid;
     grid-template-columns: 5fr 1fr;
     background-color:#57494956;
@@ -227,6 +228,7 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 .menu {
     display: flex;
@@ -250,9 +252,29 @@ section {
 .menu a:hover {
     background-color: #57494956;
 }
-/* #foryou{
-    display: block;
+#foryou{
+    /* position: absolute; */
+    /* top: 70px;
+    left: 0; */
+    /* width: inherit; */
+    /* background-color: red; */
 }
 .contents {
     display: block;
-} */
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 566.4px;
+    height: 58px;
+    padding: 16px;
+    margin-top: 0;
+    /* background-color: red; */
+}
+.contents p {
+    font-size: 12px;
+    font-weight: 100;
+}
+.contents h3 {
+    font-size: 15px;
+    font-weight: 500;
+}
