@@ -23,6 +23,8 @@ header {
 header ul {
     /* display: block; */
     list-style: none;
+    position: fixed;
+    top: 0px;
 }
 header ul li {
     padding: 5px;
@@ -90,7 +92,6 @@ main {
     padding: 15px;
     margin-top: 5px;
     margin-left: 15px;
-    margin-bottom: ;
     display: grid;
     grid-template-columns: 5fr 1fr;
     background-color:#57494956;
@@ -134,8 +135,10 @@ main {
     height: 20px;
 }
 footer {
-    float: right;
-    margin:20px 130px 0 0;
+    position: fixed;
+    top: 0px;
+    right: -30px;
+    margin:20px 130px 0 10px;
     padding: 20px ;
     line-height: 1.2em;
     overflow: hidden;
@@ -143,8 +146,9 @@ footer {
 .signin {
     /* border: #e8e8e8 solid 1px; */
     height: 8px;
-    /* width: 348.4px; */
+    width: 348.4px;
     padding: 20px;
+    order: 0;
 }
 .signin h2 {
     margin: 10px;
@@ -229,6 +233,7 @@ section {
     justify-content: center;
     align-items: center;
     position: relative;
+    margin-top: 20px;
 }
 .menu {
     display: flex;
@@ -248,28 +253,28 @@ section {
     margin-right: 15px;
     font-size: 16px;
     width: 80px;   
+    border-bottom-width: 5px;
+    border-bottom-color: rgb(29, 155, 240);
 }
 .text:hover a{
     background-color: #57494956;
 }
 
 #foryou{
-    /* position: absolute; */
-    /* top: 70px;
-    left: 0; */
-    /* width: inherit; */
-    /* background-color: red; */
+    display: flex;
+    flex-direction: column-reverse;
 }
 .contents {
     display: block;
     position: absolute;
     top: 70px;
     left: 0;
-    width: 566.4px;
+    width: 100%;
     height: 58px;
     padding: 16px;
     margin-top: 0;
     cursor: pointer;
+    flex: 1;
     /* background-color: red; */
 }
 .contents:hover p,.contents:hover h3 {
