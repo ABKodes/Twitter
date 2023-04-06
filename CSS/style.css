@@ -238,6 +238,8 @@ section {
 .menu {
     display: flex;
     margin-top: 20px;
+    justify-content: space-between;
+    align-items: center;
     width: inherit;
     border-bottom: 0.1px solid rgba(75, 74, 74,0.5);
 } 
@@ -245,27 +247,48 @@ section {
     text-decoration: none;
 }
 .text {
+    flex: 1;
+    text-align: center;
     padding: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin-left: 15px;
     margin-right: 15px;
-    font-size: 16px;
-    width: 80px;   
+    font-size: 16px;   
     border-bottom-width: 5px;
     border-bottom-color: rgb(29, 155, 240);
+    /* white-space: nowrap; */
+    /* overflow: hidden; */
+    /* text-overflow: ellipsis; */
+    /* min-width: 50px; */
 }
-.text:hover a{
+.text:nth-child(1) {
+    width: auto;
+}
+.text:nth-child(2) {
+    width: 100px;
+}
+.text:nth-child(3) {
+    width: 80px;
+}
+.text:nth-child(4) {
+    width: 70px;
+}
+.text:nth-child(5) {
+    width: 121px;
+}
+.text:hover, .text:hover a {
     background-color: #57494956;
+    opacity: 1;
 }
 
 #foryou{
-    display: flex;
-    flex-direction: column-reverse;
+    /* position: relative; */
+    /* opacity: 0; */
 }
+/* .active {
+    opacity: 1;
+} */
 .contents {
-    display: block;
+    /* display: block; */
     position: absolute;
     top: 70px;
     left: 0;
@@ -279,6 +302,7 @@ section {
 }
 .contents:hover p,.contents:hover h3 {
     background-color: #57494956; 
+    transition: 0.35s;
 }
 
 .contents p {
