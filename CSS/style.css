@@ -56,6 +56,7 @@ header ul li:not(:first-child) a:hover{
      background-color: #212121;
      border-radius: 30px;
      width: 40px;
+     transition: 0.3s;
 }
 header ul li .settings {
     font-weight: normal;
@@ -71,10 +72,12 @@ header ul li .settings {
 .logo img{
     padding: 15px;
     margin-top: -22px;
+    border-radius: 50%;
 }
 .logo:hover img {
     border-radius: 50%;
     background-color:  rgba(75, 74, 74,0.3);
+    transition: 0.3s;
 }
 main {
     display: inline-block;
@@ -129,6 +132,7 @@ main {
 .settings:hover img {
     background-color: #212121;
     border-radius: 50%;
+    transition: 0.3s;
 }
 .settings img {
     width: 20px;
@@ -166,6 +170,7 @@ footer {
 }
 .signin a:hover {
     text-decoration: underline;
+    transition: 0.3s;
 }
 .options {
     width: 300px;
@@ -221,6 +226,7 @@ footer {
 }
 .lists ul li a:hover {
     text-decoration: underline;
+    transition: 0.3s;
 }
 .lists p {
     font-size:11.5px;
@@ -260,6 +266,11 @@ section {
     /* text-overflow: ellipsis; */
     /* min-width: 50px; */
 }
+#ent {
+    padding: 3px;
+    width: 125px;
+    height: inherit;
+}
 .text:nth-child(1) {
     width: auto;
 }
@@ -272,14 +283,16 @@ section {
 .text:nth-child(4) {
     width: 70px;
 }
-.text:nth-child(5) {
-    width: 121px;
-}
-.text:hover, .text:hover a {
+.text:hover {
     background-color: #57494956;
     opacity: 1;
+    transition: 0.3s;
 }
-
+.text:hover a {
+    background-color: #1a191956;
+    opacity: 1;
+    transition: 0.3s;
+}
 #foryou{
     /* position: relative; */
     /* opacity: 0; */
