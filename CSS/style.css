@@ -50,10 +50,11 @@ header ul li a {
      font-size: 1.25em;
      font-weight: 600;
      padding: 15px;
+     border-radius: 30px;
 }
 header ul li:not(:first-child) a:hover{
      color: #e8e8e8;
-     background-color: #212121;
+     background-color: rgba(75, 74, 74,0.3);
      border-radius: 30px;
      width: 40px;
      transition: 0.3s;
@@ -63,11 +64,11 @@ header ul li .settings {
     font-size: 1em;
 }
 .explore:hover img {
-    background-color: #212121;
+    background-color:rgba(75, 74, 74,0.3);
     border-radius: 50%;
 }
 .settings-icon:hover img {
-    background-color: #212121;
+    background-color: rgba(75, 74, 74,0.3);
   }
 .logo img{
     padding: 15px;
@@ -298,7 +299,7 @@ section {
     /* opacity: 0; */
 }
 /* .active {
-    opacity: 1;
+    
 } */
 .contents {
     /* display: block; */
@@ -339,4 +340,28 @@ section {
 }
 .three-dots:hover {
     background-color:rgb(29, 155, 240) ;
+}
+.image {
+    width: 570px;
+    height: 620px;
+    padding: 16px;
+}
+.image ul {
+    list-style: none;
+}
+.image ul li {
+    text-decoration: none;
+    display: inline;
+    margin: 5px;
+}
+.topimage {
+    width: 48px;
+    height: 48px;
+}
+.name {
+    font-weight: 400;
+}
+.contentimage {
+    width: 504px;
+    height: 504px;
 }
