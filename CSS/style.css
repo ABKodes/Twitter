@@ -360,8 +360,17 @@ section {
 }
 .name {
     font-weight: 400;
+    /* padding-top: -10px; */
 }
 .contentimage {
     width: 504px;
     height: 504px;
+    float: right;
+    padding-left: 45px;
+}
+.username {
+    padding-left: 50px;
+}
+.imgcon:hover, .imgcon:hover img, .imgcon ul {
+    background-color: #57494956;
 }
