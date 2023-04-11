@@ -371,6 +371,16 @@ section {
 .username {
     padding-left: 50px;
 }
-.imgcon:hover, .imgcon:hover img, .imgcon ul {
+
+.imgcon:hover {
+    background-color: #57494956;
+}
+/* .imgcon:hover img {
+    background-color:#413f3f56;
+} */
+.imgcon:hover ul {
+    background-color: #1b1a1a56;
+}
+.imgcon:hover p {
     background-color: #57494956;
 }
