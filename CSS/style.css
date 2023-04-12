@@ -315,7 +315,7 @@ section {
     /* background-color: red; */
 }
 .contents:hover p,.contents:hover h3 {
-    background-color: #57494956; 
+    background-color: #201f1f56; 
     transition: 0.35s;
 }
 
@@ -358,8 +358,12 @@ section {
     width: 48px;
     height: 48px;
 }
-.name {
+.imgcon a {
+    text-decoration: none;
+}
+a .name {
     font-weight: 400;
+
     /* padding-top: -10px; */
 }
 .contentimage {
@@ -373,14 +377,17 @@ section {
 }
 
 .imgcon:hover {
-    background-color: #57494956;
+    background-color:  #201f1f56;
 }
-/* .imgcon:hover img {
-    background-color:#413f3f56;
-} */
-.imgcon:hover ul {
-    background-color: #1b1a1a56;
+.imgcon:hover img {
+    background-color:#0e0d0d56;
+}
+.imgcon:hover ul{
+    background-color: #0b0b0b56;
+}
+.imgcon a:hover{
+    background-color: #0b0b0b56;
 }
 .imgcon:hover p {
-    background-color: #57494956;
+    background-color: #0b0b0b56;
 }
