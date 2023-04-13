@@ -352,7 +352,6 @@ section {
 .image ul li {
     text-decoration: none;
     display: inline;
-    margin: 5px;
 }
 .topimage {
     width: 48px;
@@ -373,7 +372,8 @@ a .name {
     padding-left: 45px;
 }
 .username {
-    padding-left: 50px;
+    padding-left: 5px;
+    margin-top: -10px;
 }
 
 .imgcon:hover {
@@ -390,4 +390,8 @@ a .name {
 }
 .imgcon:hover p {
     background-color: #0b0b0b56;
+}
+.imgcon p {
+    margin-left: 60px;
+    font-weight: 200;
 }
