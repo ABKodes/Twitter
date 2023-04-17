@@ -356,6 +356,8 @@ section {
 .topimage {
     width: 48px;
     height: 48px;
+    /* border: inherit; */
+    border-radius: 50%;
 }
 .imgcon a {
     text-decoration: none;
@@ -364,6 +366,9 @@ a .name {
     font-weight: 400;
 
     /* padding-top: -10px; */
+}
+.imgcon img {
+
 }
 .contentimage {
     width: 504px;
