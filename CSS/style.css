@@ -345,6 +345,7 @@ section {
     width: 570px;
     height: 620px;
     padding: 16px;
+    /* position: relative; */
 }
 .image ul {
     list-style: none;
@@ -396,7 +397,15 @@ a .name {
 .imgcon:hover p {
     background-color: #0b0b0b56;
 }
+.topimages:hover{
+    background-color: #0b0b0b56;
+    border-radius: 50%;
+}
 .imgcon p {
     margin-left: 60px;
     font-weight: 200;
+    font-size: 13px;
+}
+.topimages {
+    display: inline;
 }
