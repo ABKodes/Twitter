@@ -408,4 +408,19 @@ a .name {
 }
 .topimages {
     display: inline;
+    float: left;
+    margin-right: 20px;
+}
+.pieceofcontent {
+    margin: 5px;
+    margin-left: 5px;
+}
+.pieceofcontent:hover{
+    background-color: #0b0b0b56;
+}
+.pieceofcontent li:hover {
+    background-color: #0b0b0b56;
+}
+.hover:hover {
+    background-color: #0b0b0b56;
 }
